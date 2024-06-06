@@ -8,19 +8,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link headerachor" href="index.php">Ana</a>
+                      <a class="nav-link headerachor" href="index.php"><?=$language["mainpage"]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link headerachor" href="AboutMe.php">Hakkımda</a>
+                      <a class="nav-link headerachor" href="AboutMe.php"><?=$language["aboutme"]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link headerachor" href="project.php">Projelerim</a>
+                      <a class="nav-link headerachor" href="project.php"><?=$language["projects"];?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link headerachor" href="Project.html">Şirketlerimiz</a>
+                      <a class="nav-link headerachor" href="Project.html"><?=$language["companies"];?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link headerachor" href="contact.html">İletişim</a>
+                      <a class="nav-link headerachor" href="contact.html"><?=$language["contact"]?></a>
                     </li>
                   </ul>
               </nav>

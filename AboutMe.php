@@ -5,7 +5,6 @@
     <?php
     include("./sections/head.php");
     ?>
-    <link rel="icon" href="Image/engineer.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="Education.css">
@@ -38,19 +37,19 @@
                 <img class="Programming" src="Image/Programming.svg" alt="">
             </div>
             <div class="col-lg-6 col-md Coding">
-                <h1>İşte Benim Hikayem</h1>
+                <h1><?=$language["hereismystory"];?></h1>
             </div>
         </div>
     </section>
     <section>
         <div class="container">
             <div class="Heading">
-                <h1>Eğitim</h1>
+                <h1><?=$language["education"];?></h1>
                 <br>
             </div>
             <div class="timeline">
                 <div class="timeline-month">
-                    Eğitim
+                <?=$language["education"];?>
                 </div>
                 <div class="timeline-section">
                     <div class="timeline-date">
@@ -76,12 +75,12 @@
         </div>
         <div class="container">
             <div class="Heading">
-                <h1>Çalışma Hayatı</h1>
+                <h1><?=$language["worklife"];?></h1>
                 <br>
             </div>
             <div class="timeline">
                 <div class="timeline-month">
-                    Çalıştığım Şirketler
+                <?=$language["workcompany"];?>
                 </div>
                 <div class="timeline-section">
                     <div class="timeline-date">
@@ -173,5 +172,4 @@
         </div>
     </section>
 </body>
-
 </html>

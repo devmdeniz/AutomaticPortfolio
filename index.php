@@ -27,8 +27,8 @@ include("./sections/head.php")
                     <img class = "boyimage" src="Image/20200630_162659.gif" alt="">
                 </div>  
                   <div class="col-lg-6 section-1">
-                      <h1 class = "Hello">Merhaba! Ben Deniz<span class="wave">👋</span></h1>
-                      <p>2016 dan beri Yazılım ile ilgileniyorum. 2023'ten beri İşletme alanı ile ilgileniyorum. 15 Mayıs 2004'te doğdum. Kendimi her zaman geliştirmeye adamış ve hayal ettiğim her şeyi durmadan yapmaya çalışan biriyim.</p>
+                      <h1 class = "Hello"><?=$language["hello"];?><span class="wave">👋</span></h1>
+                      <p><?=$language["hello_desc"];?></p>
                           <div class=social_media_icon>
                             <a class="btn" href="https://www.instagram.com/dev.mdeniz/" target=_blank>
                               <i class="fab fa-instagram"></i>
@@ -58,11 +58,11 @@ include("./sections/head.php")
 </video>
                   </div>
                   <div class="col-lg-6 col-md-6">
-                    <h1 class= "Feature-Heading" >Nedir bu Dik Holding?</h1>
+                    <h1 class= "Feature-Heading" ><?=$language["what_dikholding"];?></h1>
                     <div class = "Data-Analytic">
-                      <p class ="Features-paragraph">💥 Türkiye'nin ilklerini yapmak için hazırlanıyoruz. </p>
-                      <p  class ="Features-paragraph">💥 Hayatım boyunca Türkiye'de yaşadım ve ülkemizin eksikliklerinin oldukça farkında olan biriyim. Bu sorunlara çözüm olarak Dik Holding'i kurmaya karar verdim.</p>
-                      <p  class ="Features-paragraph">💥 Atatürk, ülkeyi gençlere emanet etmiştir. Bize düşen de budur.</p>
+                      <p class ="Features-paragraph"><?=$language["what_dikholding_desc"];?></p>
+                      <p  class ="Features-paragraph"><?=$language["what_dikholding_desc2"];?></p>
+                      <p  class ="Features-paragraph"><?=$language["what_dikholding_desc3"];?></p>
                       </div>
                 </div>
               </div>
@@ -71,12 +71,12 @@ include("./sections/head.php")
                     <img class = "Feature-svg-image-3" src="Image/Coding.svg" alt="">
                   </div>
                   <div class="col-lg-6 col-md-6 feature-coding">
-                    <h1 class="Feature-Heading">Ekibimiz Hakkında</h1>
+                    <h1 class="Feature-Heading"><?=$language["team"];?></h1>
                     <div class = "Data-Analytic">
                       <p class ="Features-paragraph">
-                         💥 Ortak düşüncelere fakat farklı fikirlere sahip insanlarız. Hepimizin ortak bir amacı olsa da her beyinden farklı bir ses çıkıyor.</p>
+                      <?=$language["team_desc"];?></p>
                       <p  class ="Features-paragraph">
-                         💥 Bütün kurucu ekipler oldukça iyi eğitim almış, alanında uzman kişilerden oluşmaktadır. Eğitim sadece üniversiteye gitmek değildir.</p>
+                      <?=$language["team_desc2"];?></p>
                         </div>
                   </div>
               </div>
